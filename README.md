@@ -28,7 +28,7 @@ Dokument obejmuje swoim zakresem utworzenie portalu [openaedmap.org](https://ope
 - **AED** - Automated External Defibrillator, czyli Automatyczny Defibrylator Zewnętrzny
 - **ERC** - European Resuscitation Council - Europejskiej Rady Resuscytacji
 - **JST** - Jednostka Samorzadu Terytorialnego
-- **NZK** - Nagłe Zatrzymanie Krążenie
+- **NZK** - nagłe zatrzymanie krążenia
 - **OSMP** - Stowarzyszenie OpenStreetMap Polska
 - **OSMF** - Fundacja OpenStreetMap z siedzibą w Londynie
 - **OSM** - OpenStreetMap
