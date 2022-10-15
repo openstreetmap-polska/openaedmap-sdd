@@ -21,7 +21,7 @@ Nasze analizy wykazały, że wiele lokalizacji AED na terenie Europy jest dostę
 
 ## 1.2 Zakres
 
-Dokument obejmuje swoim zakresem utworzenie portalu [openaedmap.org](https://openaedmap.org), z interfejsem dostępnym w kilku językach, rozbudowaniu obecnej funkcjonalności o możliwość dodawania zdjęć AED w celu ich weryfikacji oraz szybszemu zlokalizowaniu ich w terenie. Umożliwi opracowanie mechanizmu pozwalającego pobierać dane AED dla poszczególnych krajów, nie tylko jak obecnie dla Polski. Wypracowanie modółów analitycznych pozwalających urzytkowniką lepsze pozycjonowanie kolejnych urządzeń.
+Dokument obejmuje swoim zakresem utworzenie portalu [openaedmap.org](https://openaedmap.org), z interfejsem dostępnym w kilku językach, rozbudowaniu obecnej funkcjonalności o możliwość dodawania zdjęć AED w celu ich weryfikacji oraz szybszemu zlokalizowaniu ich w terenie. Umożliwi opracowanie mechanizmu pozwalającego pobierać dane AED dla poszczególnych krajów, nie tylko jak obecnie dla Polski. Wypracowanie Modułów analitycznych pozwalających urzytkowniką lepsze pozycjonowanie kolejnych urządzeń.
 
 ## 1.3 Słownik - Definicje, akronimy i skróty.
 
@@ -36,16 +36,20 @@ Dokument obejmuje swoim zakresem utworzenie portalu [openaedmap.org](https://ope
 - **QA** - Quality Assurance - Analiza i zapewnienie jakości
 
 # 2.0 Przegląd funkcjonalności
-## 2.1 Modół prezentacji danych
-## 2.2 Modół dodawania / aktualizacji danych
+*Przegląd poszczególnych funkcjonalności portalu*
+## 2.1 Moduł prezentacji danych
+*Wersja beta już działa*
+## 2.2 Moduł dodawania / aktualizacji danych
+*wersja beta już działa*
+
 ### 2.2.1 Wprowadzanie lokalizacji urządzenia
 ### 2.2.2 Wprowadzania zdjęcia urządzenia
 ### 2.2.3 Generowanie QR-codów z lokalizacją najbliższego urządzenia.
 *Generowanie kody QR dla każdego urządzenia z jego loklizacją. Pozwalający na pobranie takiego kodu w formie .svg lub .pdf*
-## 2.3 Modół analizy danych
-Modół pozwalający generować podstawowe analizy dotyczące lokalizacji urządzeń AED
+## 2.3 Moduł analizy danych
+Moduł pozwalający generować podstawowe analizy dotyczące lokalizacji urządzeń AED
 ### 2.3.1 Analiza rekomendowanych miejsc pod kątem umieszczenie stacjonarnych urządzeń.
-*Modół tworzący warstwę danych pokazującą obiekty w których powinny znajdować się urządzenia AED zgodnie z listą obiektów rekomendowanych. Rekomendacje obejmują obiekty generujące ruch oraz odosobnione, które wymagają instalacji AED ze względu na czas potrzebny do zapewnienia pomocy medycznej.*
+*Moduł tworzący warstwę danych pokazującą obiekty w których powinny znajdować się urządzenia AED zgodnie z listą obiektów rekomendowanych. Rekomendacje obejmują obiekty generujące ruch oraz odosobnione, które wymagają instalacji AED ze względu na czas potrzebny do zapewnienia pomocy medycznej.*
 
 #### Lista obiektów rekomendowanych
 >Listę trzeba przerobić na tabelę oraz dodać do niej tagi i typy obiektów
@@ -80,7 +84,7 @@ Modół pozwalający generować podstawowe analizy dotyczące lokalizacji urząd
 13. Obiekty w  odległe i słabo zaludnionych obszarach takie jak:
     1. schroniska turystyczne
     2.  wyspy i obszary górskie
-## 2.4 Modół raportów i statystyk
+## 2.4 Moduł raportów i statystyk
 ### 2.4.1 Statystyki ilośći AED w rozbiciu na poszczególne kraje (Tabela)
 >Tabela w postacji linków do strony kraju z poszczególnymi statystykami
 ### 2.4.2 Lista edytorów TOP100
@@ -95,8 +99,8 @@ Modół pozwalający generować podstawowe analizy dotyczące lokalizacji urząd
 |AED bez *acces* | Tabela | Lista z linkami do poszczególnych urządzeń |
 |AED bez *defibrillator:location:en* | Wykres | Wykres pokazujący wszytkie AED do tych bez opisu loklizacji w języku angielskim |
 |AED bez *defibrillator:location:en* | Tabela | Lista z linkami do poszczególnych urządzeń |
-## 2.5 Modół QA
-*Modół generujący raportu, oraz prezentujący możliwe błedy lub braki w danych urządzeń AED i umożliwiający ich poprawienie*
+## 2.5 Moduł QA
+*Moduł generujący raportu, oraz prezentujący możliwe błedy lub braki w danych urządzeń AED i umożliwiający ich poprawienie*
 ### 2.5.1 AED bez tagu *defibrillator:location* i bez opisu
 > Sprawdzanie czy istnieje opis w języku angielskim jako opcja - Przetłumacz?
 ### 2.5.2 AED oznaczone *fixme*
@@ -108,7 +112,7 @@ Modół pozwalający generować podstawowe analizy dotyczące lokalizacji urząd
 
 | Kategoria | Obiekt |
 |-----------|--------|
-|	Medyczne	|	Szpital	|
+|Medyczne|Szpital|
 |	Medyczne	|	SOR	|
 |	Medyczne	|	Izba przyjęć	|
 |	Medyczne	|	Oddział Szpitalny	|
