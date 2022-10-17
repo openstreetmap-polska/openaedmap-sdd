@@ -7,11 +7,11 @@ wersja 0.1
 # 1.0 Wstęp
 ## 1.1 Cel
 
-**NZK** do którego dochodzi poza szpitalem (OHCA - Out of Hospital  Cardiac Arrest) jest trzecią najczęstszą przyczyną zgonów w Europie i stanowi istotny problem zdrowia publicznego na całym świecie. NZK w większości ma podłoże kardiologiczne (najczęściej zawał serca i inne ostre zespoły wieńcowe), ale także może być spowodowany przyczynami poza sercowymi (zatrzymanie oddechu, uraz wielonarządowy, wykrwawienie). W Polsce w 2018 roku 40,5% ogółu zgonów spowodowanych było chorobami układu krążenia, spośród których 59% stanowiły choroby  serca, co jest znacznie częstsze niż w bogatszych krajach UE. Mimo wzrostu liczby zgonów w Polsce w 2020 roku z powodu pandemii SARS-CoV-2, których ogólna liczba jest najwyższa od kilkudziesięciu lat, ich główną przyczyną niezmiennie pozostają choroby układu krążenia (źródło danych GUS, 2021 r.).
+**NZK** do którego dochodzi poza szpitalem (OHCA - Out of Hospital Cardiac Arrest) jest trzecią najczęstszą przyczyną zgonów w Europie i stanowi istotny problem zdrowia publicznego na całym świecie. NZK w większości ma podłoże kardiologiczne (najczęściej zawał serca i inne ostre zespoły wieńcowe), ale także może być spowodowany przyczynami poza sercowymi (zatrzymanie oddechu, uraz wielonarządowy, wykrwawienie). W Polsce w 2018 roku 40,5% ogółu zgonów spowodowanych było chorobami układu krążenia, spośród których 59% stanowiły choroby serca, co jest znacznie częstsze niż w bogatszych krajach UE. Mimo wzrostu liczby zgonów w Polsce w 2020 roku z powodu pandemii SARS-CoV-2, których ogólna liczba jest najwyższa od kilkudziesięciu lat, ich główną przyczyną niezmiennie pozostają choroby układu krążenia (źródło danych: GUS, 2021 r.).
 
 Cytując Wytyczne Europejskiej Rady Resuscytacji (ERC 2021), roczna częstotliwość występowania pozaszpitalnego zatrzymania krążenia (OHCA) w Europie wynosi 67-170 przypadków na 100 000 mieszkańców, gdzie dolną wartość występowania OHCA w Europie wyznaczyło badanie przeprowadzone w Polsce w Bielsku-Białej (nie ma w Polsce ogólnopolskiego rejestru NZK) opublikowane w Kardiologii Polskiej w 2016 roku. Przeżywalność w Europie po wystąpieniu OHCA do czasu wypisu ze szpitala wynosi średnio 8% i waha się w zakresie 0-18%. 
 
-Przeżywalność po OHCA można znacznie zwiększyć, jeśli natychmiast podejmie się resuscytację oraz zostanie użyty automatyczny defibrylator zewnętrzny (AED - Automated External Defibrillator). Zastosowanie AED przez osoby bez przeszkolenia medycznego umożliwia podjęcie próby defibrylacji na klika minut przed przybyciem profesjonalnej  pomocy medycznej. Defibrylacja w ciągu 3-5 minut od OHCA może zapewnić przeżywalność na poziomie 50-70%. Każda minuta opóźnienia w wykonaniu defibrylacji zmniejsza  prawdopodobieństwo przeżycia do wypisu ze szpitala średnio o 3-5%, pod warunkiem prowadzenia resuscytacji. W przypadku jej prawdopodobieństwo przeżycia zmniejsza się o 10-12% na minutę opóźnienia defibrylacji.
+Przeżywalność po OHCA można znacznie zwiększyć, jeśli natychmiast podejmie się resuscytację oraz zostanie użyty automatyczny defibrylator zewnętrzny (AED - Automated External Defibrillator). Zastosowanie AED przez osoby bez przeszkolenia medycznego umożliwia podjęcie próby defibrylacji na klika minut przed przybyciem profesjonalnej  pomocy medycznej. Defibrylacja w ciągu 3-5 minut od OHCA może zapewnić przeżywalność na poziomie 50-70%. Każda minuta opóźnienia w wykonaniu defibrylacji zmniejsza  prawdopodobieństwo przeżycia do wypisu ze szpitala średnio o 3-5%, pod warunkiem prowadzenia resuscytacji. W przypadku jej braku prawdopodobieństwo przeżycia zmniejsza się o 10-12% na minutę opóźnienia defibrylacji.
 
 Wśród wytycznych **ERC** znajdują się takie, które zalecają tworzenie map i jak najszersze udostępnianie informacji o lokalizacjach publicznie dostępnych defibrylatorów. Niestety większość dostępnych danych na temat lokalizacji AED jest tworzona w ramach projektów komercyjnych i dane zbierane przez te podmioty, nie są udostępnione szerokiemu odbiorcy, co znacznie utrudnia ich przetwarzanie i analizę przez niezależnych specjalistów.
 
@@ -27,7 +27,7 @@ Dokument obejmuje swoim zakresem utworzenie portalu [openaedmap.org](https://ope
 
 - **AED** - Automated External Defibrillator, czyli automatyczny defibrylator zewnętrzny,
 - **ERC** - European Resuscitation Council - Europejska Rada Resuscytacji,
-- **JST** - Jednostka Samorzadu Terytorialnego,
+- **JST** - Jednostka Samorządu Terytorialnego,
 - **NZK** - nagłe zatrzymanie krążenia,
 - **OSMP** - Stowarzyszenie OpenStreetMap Polska,
 - **OSMF** - Fundacja OpenStreetMap z siedzibą w Londynie,
@@ -45,7 +45,7 @@ Dokument obejmuje swoim zakresem utworzenie portalu [openaedmap.org](https://ope
 ### 2.2.1 Wprowadzanie lokalizacji urządzenia
 ### 2.2.2 Wprowadzania fotografii urządzenia
 ### 2.2.3 Generowanie QR-kodów z lokalizacją najbliższego urządzenia.
-*Generowanie kodu QR dla każdego urządzenia z jego loklizacją. Pozwalający na pobranie takiego kodu w formie .svg lub .pdf.*
+*Generowanie kodu QR dla każdego urządzenia z jego lokalizacją. Pozwalający na pobranie takiego kodu w formie .svg lub .pdf.*
 ## 2.3 Moduł analizy danych
 Moduł pozwalający generować podstawowe analizy dotyczące lokalizacji urządzeń AED.
 ### 2.3.1 Analiza rekomendowanych miejsc pod kątem umieszczenie stacjonarnych urządzeń.
@@ -69,7 +69,7 @@ Moduł pozwalający generować podstawowe analizy dotyczące lokalizacji urządz
     6. remizy strażackie,
     7. budynki i obiekty w zarządzie Lasów Państwowych,
     8. powiatowe i wojewódzkie stacje sanitarno-epidemiologiczne.
-8. Domy pomocy społecznej, centra usług społecznych, zakłądy aktywizacji zawodowej, placówki opiekuńcze dla osób starszych.
+8. Domy pomocy społecznej, centra usług społecznych, zakłady aktywizacji zawodowej, placówki opiekuńcze dla osób starszych.
 9. Placówki edukacyjne:
     1. przedszkola,
     2. szkoły podstawowe,
@@ -88,26 +88,26 @@ Moduł pozwalający generować podstawowe analizy dotyczące lokalizacji urządz
     1. schroniska turystyczne,
     2. wyspy i obszary górskie.
 ## 2.4 Moduł raportów i statystyk
-### 2.4.1 Statystyki ilości AED w rozbiciu na poszczególne kraje (Tabela)
->Tabela w postacji linków do strony kraju z poszczególnymi statystykami
+### 2.4.1 Statystyki liczby AED w rozbiciu na poszczególne kraje (tabela)
+>Tabela w postaci linków do strony kraju z poszczególnymi statystykami
 ### 2.4.2 Lista edytorów TOP100
 ### 2.4.3 Statystyki dla kraju / jednostki administracyjnej
-*Zebranie ststystyk dla kraju w formie tabeli oraz wykresu w zależności od danych*
+*Zebranie statystyk dla kraju w formie tabeli oraz wykresu w zależności od danych*
 | Statystyka | Forma | Opis |
 |:-----------|:------|:-----|
 |TOP30 Edytorów | Tabela | linki do kont OSM |
-|AED bez opisu | Wykres | Wykres pokazujący wszytkie AED do tych bez opisu loklizacji w języku rodzimym |
+|AED bez opisu | Wykres | Wykres pokazujący wszystkie AED do tych bez opisu lokalizacji w języku rodzimym |
 |AED bez opisu | Tabela | Lista z linkami do poszczególnych urządzeń |
-|AED bez *acces* | Wykres | Wykres pokazujący wszytkie AED do tych bez oznaczenia dostępu w języku rodzimym |
-|AED bez *acces* | Tabela | Lista z linkami do poszczególnych urządzeń |
-|AED bez *defibrillator:location:en* | Wykres | Wykres pokazujący wszytkie AED do tych bez opisu loklizacji w języku angielskim |
+|AED bez *access* | Wykres | Wykres pokazujący wszystkie AED do tych bez oznaczenia dostępu w języku rodzimym |
+|AED bez *access* | Tabela | Lista z linkami do poszczególnych urządzeń |
+|AED bez *defibrillator:location:en* | Wykres | Wykres pokazujący wszystkie AED do tych bez opisu loklizacji w języku angielskim |
 |AED bez *defibrillator:location:en* | Tabela | Lista z linkami do poszczególnych urządzeń |
 ## 2.5 Moduł QA
-*Moduł generujący raportu, oraz prezentujący możliwe błędy lub braki w danych urządzeń AED i umożliwiający ich poprawienie*
+*Moduł generujący raport oraz prezentujący możliwe błędy lub braki w danych urządzeń AED i umożliwiający ich poprawienie*
 ### 2.5.1 AED bez tagu *defibrillator:location* i bez opisu
 > Sprawdzanie czy istnieje opis w języku angielskim jako opcja - Przetłumacz?
 ### 2.5.2 AED oznaczone *fixme*
-### 2.5.3 AED bez zdjęcia
+### 2.5.3 AED bez fotografii
 ### 2.5.4 AED bez *access=*
 ## 2.6 Dedykowany podkład mapowy
 *Dedykowany podkład skupiający się na wyświetlaniu danych przydatnych ratownikom medycznym*
@@ -166,9 +166,9 @@ Moduł pozwalający generować podstawowe analizy dotyczące lokalizacji urządz
 ### 3.2.1 Dodanie AED
 ### 3.2.2 Edycja AED
 ### 3.2.3 Dodanie fotografii
-### 3.3.4 Pobranie danych AED dla kraju / jednostki administarcyjnej
-### 3.3.5 Generownie raportu dla kraju / jednostki administracyjnej
-### 3.3.6 Korzystanie z wartwy QA
+### 3.3.4 Pobranie danych AED dla kraju / jednostki administracyjnej
+### 3.3.5 Generowanie raportu dla kraju / jednostki administracyjnej
+### 3.3.6 Korzystanie z warstwy QA
 # 4.0 Przegląd Projektu
 ## 4.1 Architektura systemu
 ## 4.2 Baza danych
