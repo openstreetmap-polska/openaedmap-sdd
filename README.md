@@ -213,6 +213,7 @@ Tabela, mapa oraz możliwość pobrania obiektów w formie pliku .osm lub .geoja
 ## 5.1 Funkcjonalność
 
 1. Automatyczne proponowanie tłumaczenia na język angielski.
+2. Powiązanie godzin otwarcia z godzinami otwarcia budynku? Czy to jest możliwe?
 
 ## 5.2 Raporty
 
