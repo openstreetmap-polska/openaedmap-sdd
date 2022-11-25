@@ -36,20 +36,38 @@ Dokument obejmuje swoim zakresem utworzenie portalu [openaedmap.org](https://ope
 - **QA** - Quality Assurance - analiza i zapewnienie jakości.
 
 # 2.0 Przegląd funkcjonalności
-*Przegląd poszczególnych funkcjonalności portalu*
+>Przegląd poszczególnych funkcjonalności portalu
+
 ## 2.1 Moduł prezentacji danych
-*Wersja beta już działa.*
+>Wersja beta już działa.
+
+
 ## 2.2 Moduł dodawania / aktualizacji danych
-*Wersja beta już działa.*
+>Wersja beta już działa.
 
 ### 2.2.1 Wprowadzanie lokalizacji urządzenia
+* Komunikat dla opisu urządzenia(W przypadku braku dodania opisu upewnia się czy napewno chcesz dodać bez opisu)
+* Wymuszenie dodania **access** (Do omówienia)
+* Dodanie boxów informujących [?] dla każdego pola
+* Opisanie obowiązujących pól
+* Button "Zgłoś problem"
+    * Urządzenie nie działa / jest uszkodzone
+    * Urządzenei nie znajduje się w tym miejscu
+    * Błedne zdjęce (etap II)
+* Button "Edit" - edytowanie w OpenAedMpa, rozbudowanie funkcjonalności
+
 ### 2.2.2 Wprowadzania fotografii urządzenia
+*Etap II - na razie nie będziemy nad tym pracować**
+
 ### 2.2.3 Generowanie QR-kodów z lokalizacją najbliższego urządzenia.
 *Generowanie kodu QR dla każdego urządzenia z jego lokalizacją. Pozwalający na pobranie takiego kodu w formie .svg lub .pdf.*
+
 ## 2.3 Moduł analizy danych
 Moduł pozwalający generować podstawowe analizy dotyczące lokalizacji urządzeń AED.
+
 ### 2.3.1 Analiza rekomendowanych miejsc pod kątem umieszczenie stacjonarnych urządzeń.
 *Moduł tworzący warstwę danych pokazującą obiekty, w których powinny znajdować się urządzenia AED zgodnie z listą obiektów rekomendowanych. Rekomendacje obejmują obiekty generujące ruch oraz odosobnione, które wymagają instalacji AED ze względu na czas potrzebny do zapewnienia pomocy medycznej.*
+
 ### 2.2.4 Pobieranie danych AED
 * Dedykowana strona do pobierania danych z podziałem dla poszcególnych krajów
 * Informacja o licencji ODbL podczas pobierania danych lokalizacji
@@ -93,9 +111,13 @@ Moduł pozwalający generować podstawowe analizy dotyczące lokalizacji urządz
     1. schroniska turystyczne,
     2. wyspy i obszary górskie.
 ## 2.4 Moduł raportów i statystyk
+>W formie podstrony z przejściem przez główną stronę jak dla mnie obecnie priorytet.
+
 ### 2.4.1 Statystyki liczby AED w rozbiciu na poszczególne kraje (tabela)
 >Tabela w postaci linków do strony kraju z poszczególnymi statystykami
+
 ### 2.4.2 Lista edytorów TOP100
+
 ### 2.4.3 Statystyki dla kraju / jednostki administracyjnej
 *Zebranie statystyk dla kraju w formie tabeli oraz wykresu w zależności od danych*
 | Statystyka | Forma | Opis |
@@ -107,13 +129,20 @@ Moduł pozwalający generować podstawowe analizy dotyczące lokalizacji urządz
 |AED bez *access* | Tabela | Lista z linkami do poszczególnych urządzeń |
 |AED bez *defibrillator:location:en* | Wykres | Wykres pokazujący wszystkie AED do tych bez opisu loklizacji w języku angielskim |
 |AED bez *defibrillator:location:en* | Tabela | Lista z linkami do poszczególnych urządzeń |
+
 ## 2.5 Moduł QA
 *Moduł generujący raport oraz prezentujący możliwe błędy lub braki w danych urządzeń AED i umożliwiający ich poprawienie*
+
 ### 2.5.1 AED bez tagu *defibrillator:location* i bez opisu
 > Sprawdzanie czy istnieje opis w języku angielskim jako opcja - Przetłumacz?
 ### 2.5.2 AED oznaczone *fixme*
 ### 2.5.3 AED bez fotografii
+*Etap II*
+
 ### 2.5.4 AED bez *access=*
+>Priorytet
+Tabela, mapa oraz możliwość pobrania obiektów w formie pliku .osm lub .geojason
+
 ## 2.6 Dedykowany podkład mapowy
 *Dedykowany podkład skupiający się na wyświetlaniu danych przydatnych ratownikom medycznym*
 ### 2.6.1 Lista obiektów do oznaczenia
@@ -167,12 +196,14 @@ Moduł pozwalający generować podstawowe analizy dotyczące lokalizacji urządz
 ## 3.1 Aktorzy
 ### 3.1.1 Wolontariusz dodający urządzenie
 ### 3.1.2 Pracownik JST
+
 ## 3.2 Interakcje
 ### 3.2.1 Dodanie AED
 ### 3.2.2 Edycja AED
 ### 3.2.3 Dodanie fotografii
 ### 3.3.4 Pobranie danych AED dla kraju / jednostki administracyjnej
 ### 3.3.5 Generowanie raportu dla kraju / jednostki administracyjnej
+
 ### 3.3.6 Korzystanie z warstwy QA
 # 4.0 Przegląd Projektu
 ## 4.1 Architektura systemu
