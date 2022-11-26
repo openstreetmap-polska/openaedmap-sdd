@@ -62,16 +62,17 @@ Dokument obejmuje swoim zakresem utworzenie portalu [openaedmap.org](https://ope
 ### 2.2.3 Generowanie QR-kodów z lokalizacją najbliższego urządzenia.
 *Generowanie kodu QR dla każdego urządzenia z jego lokalizacją. Pozwalający na pobranie takiego kodu w formie .svg lub .pdf.*
 
+### 2.2.4 Pobieranie danych AED
+>Pobieranie danych za pomocą Dashbordu? (Patrz Figma)
+* Dedykowana strona do pobierania danych z podziałem dla poszcególnych krajów
+* Informacja o licencji ODbL podczas pobierania danych lokalizacji
+* Podział na kraje
+
 ## 2.3 Moduł analizy danych
 Moduł pozwalający generować podstawowe analizy dotyczące lokalizacji urządzeń AED.
 
 ### 2.3.1 Analiza rekomendowanych miejsc pod kątem umieszczenie stacjonarnych urządzeń.
 *Moduł tworzący warstwę danych pokazującą obiekty, w których powinny znajdować się urządzenia AED zgodnie z listą obiektów rekomendowanych. Rekomendacje obejmują obiekty generujące ruch oraz odosobnione, które wymagają instalacji AED ze względu na czas potrzebny do zapewnienia pomocy medycznej.*
-
-### 2.2.4 Pobieranie danych AED
-* Dedykowana strona do pobierania danych z podziałem dla poszcególnych krajów
-* Informacja o licencji ODbL podczas pobierania danych lokalizacji
-* Podział na kraje
 
 
 #### Lista obiektów rekomendowanych
