@@ -41,6 +41,8 @@ Dokument obejmuje swoim zakresem utworzenie portalu [openaedmap.org](https://ope
 ## 2.1 Moduł prezentacji danych
 >Wersja beta już działa.
 
+### 2.1.2
+Wyszukiwanie lokalizacji
 
 ## 2.2 Moduł dodawania / aktualizacji danych
 >Wersja beta już działa.
