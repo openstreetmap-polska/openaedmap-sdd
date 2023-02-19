@@ -52,6 +52,7 @@ Wyszukiwanie lokalizacji
 * Rodzaj dostępności
 * Czy wewnętrz budynku?
 * Opisz dokładna lokalizację (pl):
+* Tłumaczenie eng (do potwierdzenia - domyślne DEEP?)
 * Numer kontaktowy do operatora
 * Data weryfikacji 
 
@@ -72,6 +73,7 @@ Wyszukiwanie lokalizacji
 * Rodzaj dostępności
 * Czy wewnętrz budynku?
 * Opisz dokładna lokalizację (pl):
+* Tłumaczenie eng (do potwierdzenia - domyślne DEEP?)
 * Numer kontaktowy do operatora
 * Data weryfikacji 
 * Zmień loklizację
